@@ -1,0 +1,21 @@
+// Exercise 1
+var abc = "#";
+for (var a = 1; a < 8; ++a) 
+{
+  if (abc.length < a) 
+    abc = abc + "#";
+  console.log(abc);
+}
+  
+  // Exercise 2
+  for (a = 1; a < 101; a++) 
+  { if (a % 3 == 0 && a % 5 != 0) 
+    console.log("Fizz");
+   else if (a % 5 == 0 && a % 3 != 0)
+     console.log("Buzz");
+   else if (a % 5 == 0 && a % 3 == 0)
+     console.log("FizzBuzz");
+   else 
+     console.log(a);
+  }
+  
